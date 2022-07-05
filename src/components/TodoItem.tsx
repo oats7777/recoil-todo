@@ -1,6 +1,6 @@
 import React, { FC, ChangeEvent } from 'react';
 import { useRecoilState } from 'recoil';
-import todoListState, { ITodoListState } from '../atom/todoList';
+import { ITodoListState, todoListState } from '../atom/todoList';
 import { replaceItemAtIndex, removeItemAtIndex } from '../utils/array';
 
 interface ITodoItemProps {

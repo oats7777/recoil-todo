@@ -1,6 +1,6 @@
 import React, { useState, FC, ChangeEvent } from 'react';
 
-import todoListState from '../atom/todoList';
+import { todoListState } from '../atom/todoList';
 import { useSetRecoilState } from 'recoil';
 
 const TodoItemCreator: FC = () => {
